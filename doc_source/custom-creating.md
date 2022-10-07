@@ -124,7 +124,7 @@ The following example creates an RDS Custom DB instance named `my-custom-instanc
 For Linux, macOS, or Unix:  
 
 ```
- 1. aws create-db-instance \
+ 1. aws rds create-db-instance \
  2.     --engine custom-oracle-ee \
  3.     --db-instance-identifier my-custom-instance \
  4.     --engine-version 19.my_cev1 \
